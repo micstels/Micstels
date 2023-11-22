@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.senior{
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.9)
+    ),
+    url(pexels-mateusz-12499786.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+}
+
+nav{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.minor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.minor .row{
+    background-image: url(pexels-mike-bird-241316.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 350px;
+    margin: 20px 30px;
+}
+
+.row1{
+    background-color:black ;
+    /* width: 250px; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* height: 250px; */
+}
+
+.minor .img1{
+    background-image: url(pexels-derwin-edwards-11209235.jpg);
+}
+
+.minor .img2{
+    background-image: url(pexels-supreet-8237007.jpg);
+}
+
+.minor .img3{
+    background-image: url(pexels-garvin-st-villier-3972755.jpg);
+}
+
+.minor .img4{
+    background-image: url(pexels-masood-aslami-4450042.jpg);
+}
+
+.minor .img5{
+    background-image: url(pexels-pixabay-261985.jpg);
+}
+
+.minor .img6{
+    background-image: url(pexels-alizain-hirani-12905857.jpg);
+}
+
+.minor .img7{
+    background-image: url(pexels-trace-constant-707046.jpg);
+}
+
+.minor .img8{
+    background-image:url(pexels-garvin-st-villier-3311574.jpg);
+}
+
+.minor .img9{
+    background-image: url(pexels-prestige-gallery-16189183.jpg);
+}
+
+.minor .img10{
+    background-image: url(pexels-adrian-dorobantu-2127733.jpg);
+}
+
+.minor .img11{
+    background-image: url(pexels-abdulwahab-alawadhi-3422964\ \(1\).jpg);
+}
+
+.minor .img12{
+    background-image: url(pexels-jay-pizzle-8664302.jpg);
+}
+
+.minor .img13{
+    background-image: url(pexels-jay-pizzle-4984313.jpg);
+}
+
+
+
+@media only screen and (max-width) {
+    nav{
+        display: flex;
+        padding-top: 20px;
+        /* padding-left: 20px; */
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+}
